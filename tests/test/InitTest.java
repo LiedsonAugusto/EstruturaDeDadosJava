@@ -35,7 +35,7 @@ public class InitTest {
 		this.arrayGigante = new Integer[tamanho];
 		Random rd = new Random();
 		for (int i = 0; i < tamanho; i++) {
-			this.arrayGigante[i] = rd.nextInt(1000000);
+			this.arrayGigante[i] = rd.nextInt(10);
 		}
 		this.giganteOrdenado = Arrays.copyOf(arrayGigante, arrayGigante.length);
 		Arrays.sort(this.giganteOrdenado);
