@@ -14,7 +14,7 @@ public class QuickTest extends InitTest{
 	
 	@Test
 	public void test() {
-		preencheArray(90000);
+		preencheArray(92500);
 		testeGlobal(arrayGigante, giganteOrdenado);
 	}
 }
